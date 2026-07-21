@@ -1,0 +1,11 @@
+ezdxf==1.4.4
+ezdwg==0.9.0
+matplotlib==3.11.1
+numpy==2.5.1
+opencv-python-headless==5.0.0.93
+
+# --- 深度学习匹配器/检测器（可选，默认启用，缺失时自动回退启发式） ---
+# 系统 Python 3.13（已含 torch 2.9 + CUDA）需补充 ezdxf/ezdwg 到项目内 vendor313：
+#   python -m pip install --target=vendor313 "ezdxf==1.4.4" "ezdwg==0.9.0"
+# 内置 3.12 运行时如需 DL，可安装 CPU 版 torch 到项目内 vendor_dl：
+#   <python3.12> -m pip install --target=vendor_dl torch --index-url https://download.pytorch.org/whl/cpu

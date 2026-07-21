@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CAD project
+vendor/
+vendor313/
+vendor_dl/
+cad_cv_demo/models/
+.mplcache/
+.cache/
+*.dxf
+*.png
